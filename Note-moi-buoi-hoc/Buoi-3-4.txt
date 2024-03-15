@@ -1,4 +1,5 @@
-Note buổi học 03:
+
+Note buổi học 03 (11/3/2024):
 Thực hành:
 - Ôn lại cách tự tạo testcase, cách đo thời gian,
 - Giải đáp một số bài tập wecode
@@ -17,3 +18,5 @@ Lý thuyết:
 + Unsupervised: Clustering...
 - Các thuật ngữ : Data set, Input , Output, Label...
 - Các ví dụ về các bài toán trên
+
+Note buổi học 04 (18/3/2024):

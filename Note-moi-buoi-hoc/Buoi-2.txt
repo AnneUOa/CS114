@@ -1,3 +1,5 @@
+4/2/2024
+
 Thầy Duy đưa ra một số câu hỏi tự tìm hiểu
 - Machine Learning là gì, cho ví dụ và phản ví dụ
 - Phân loại các thuật toán

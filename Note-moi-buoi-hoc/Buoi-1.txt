@@ -1,3 +1,4 @@
+26/2/2024
 Nội dung buổi học:
 - Tại sao cần phải học máy học? (tất cả công nghệ tiên tiến hiện nay đều liên quan đến máy học, nhiều cơ hội việc làm, kiến thức, kỹ năng cần thiết,...)
 - Giới thiệu một số khái niệm trong máy học.
