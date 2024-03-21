@@ -1,28 +1,33 @@
-def count_stars(image):
-    def dfs(x, y):
-        if x < 0 or x >= m or y < 0 or y >= n or image[x][y] == '-':
-            return
-        image[x][y] = '-'
-        for dx in [-1, 0, 1]:
-            for dy in [-1, 0, 1]:
-                dfs(x + dx, y + dy)
+def solve(grid):
+    star = 0
+    n = len(grid)
+    m = len(grid[0])
+    vis = [[0] * m for _ in range(n)]
 
-    count = 0
-    for i in range(m):
-        for j in range(n):
-            if image[i][j] == '#':
-                dfs(i, j)
-                count += 1
-    return count
+    for i in range(n):
+        for j in range(m):
+            if grid[i][j] == '-' and vis[i][j] == 0:
+                star += 1
+                DFS(grid, vis, n, m, i, j)
+    return star
 
+def DFS(grid, vis, n, m, row, col):
+    delRow=[1, -1, 0, 0]
+    delCol= [0, 0, -1, 1]
+    if row < 0 or row >= n or col < 0 or col >= m or vis[row][col] == 1:
+        return
+    vis[row][col] = 1
+    for i in range(4):
+        nRow = row + delRow[i]
+        nCol = col + delCol[i]
 
-case = 1
-while True:
-    try:
-        m, n = map(int, input().split())
-        image = [list(input()) for _ in range(m)]
-        stars = count_stars(image)
-        print(f"Case {case}: {stars}")
-        case += 1
-    except EOFError:
-        break
+        if 0 <= nRow < n and 0 <= nCol < m and grid[nRow][nCol] == '-' and vis[nRow][nCol] == 0:
+            DFS(grid, vis, n, m, nRow, nCol)
+for i in range (8):
+    m,n=map(int,input().split())
+    grid=[]
+    for _ in range(m):
+        row=list(input())
+        grid.append(row)
+    result = solve(grid)
+    print("Case " + str(i+1) + ": " + str(result))
