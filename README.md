@@ -38,12 +38,12 @@
 
 ## THÀNH VIÊN NHÓM
 <a name="thanhvien"></a>
-| STT    | MSSV          | Họ và Tên              | Github                                               | Email                   |
-| ------ |:-------------:| ----------------------:|-----------------------------------------------------:|-------------------------:
-| 1      | 22520033      | Trương Huỳnh Thúy An   |[AnneUOa](https://github.com/AnneUOa)           |22520033@gm.uit.edu.vn   |
-| 2      | 22520083      | Trịnh Thị Lan Anh      |______________________________________________________|                         |
-| 3      | ________      | ____________           |                                                      |______________________   |
+| STT    | MSSV          | Họ và Tên              | Github                                          | Email                   |
+| ------ |:-------------:| ----------------------:|------------------------------------------------:|-------------------------:
+| 1      | 22520033      | Trương Huỳnh Thúy An   |[AnneUOa](https://github.com/AnneUOa)            |22520033@gm.uit.edu.vn   |
+| 2      | 22520083      | Trịnh Thị Lan Anh      |[lananh2905](https://github.com/lananh2905)      |22520083@gm.uit.edu.vn   |
+| 3      | 22520148      | Huỳnh Thị Hải Châu     | [Pie](https://github.com/Hchouuu)               |22520148@gm.uit.edu.vn   |
 
 ## ĐỒ ÁN MÔN HỌC
 <a name="doan"></a>
-1. Tên đồ án: ___________
+1. Tên đồ án: XÁC ĐỊNH HIỆU XE GẮN MÁY TỪ ẢNH
